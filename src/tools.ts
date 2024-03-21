@@ -1,10 +1,10 @@
 const completionSpec: Fig.Spec = {
-	name: "ae-kit",
+	name: "tools",
 	description: "A toolkit for analytics engineers to manage their day-to-day tasks",
 	subcommands: [
 		{
 			name: "init",
-			description: "Generate an AE-kit directory & configuration file in the current directory",
+			description: "Generate an Tools directory & configuration file in the current directory",
 		},
 		{
 			name: "commit-all",

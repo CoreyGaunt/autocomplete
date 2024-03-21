@@ -1,0 +1,22 @@
+general:
+  team-tag: 
+  team-name: 
+  raise-on-escape: true
+  raise-on-interrupt: true
+commits:
+  conventional-commits:
+    types:
+      - Feat
+      - Refactor
+      - Fix
+      - Docs
+      - Style
+      - Test
+      - Chore
+aws-info:
+  local-dag-root: ''
+  local-plugins-root: ''
+  cd-dag-root: ''
+  cd-plugins-root: ''
+  dag-location: ''
+  plugins-location: ''
