@@ -7,7 +7,7 @@ const completionSpec: Fig.Spec = {
 			description: "Generate an Tools directory & configuration file in the current directory",
 		},
 		{
-			name: "commit-all",
+			name: "commit",
 			description: "Commit all changes in the current directory using Conventional Commits format",
 		},
 		{
