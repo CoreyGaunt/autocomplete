@@ -21,6 +21,12 @@ const completionSpec: Fig.Spec = {
 		{
 			name: "pr-create",
 			description: "Leverages the GH CLI to create a new PR with the current branch. Requires a PULL_REQUEST_TEMPLATE environment variable to be set",
+			options: [
+				{
+					name: ["-c", "--is-cross-team"],
+					description: "Swaps the PR Body Template From Data & Analytics to Cross-Team",
+				}
+			]
 		},
 		{
 			name: "run",
