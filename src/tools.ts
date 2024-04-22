@@ -29,6 +29,24 @@ const completionSpec: Fig.Spec = {
 			]
 		},
 		{
+			name: "compare-objects",
+			description: "Compares your local sql models against its production counterpart"
+		},
+		{
+			name: "model-doc",
+			description: "Generate a yaml file with column-level documentation for the specified model",
+		},
+		{
+			name: "reset-schemas",
+			description: "Reset your development environment to match production. You can also use the --ci-cd flag to update the CI/CD database from production",
+			options: [
+				{
+					name: ["-ci", "--ci-cd"],
+					description: "Update the CI/CD database from production",
+				}
+			]
+		},
+		{
 			name: "run",
 			description: "Searches through SQL files in the models/ directory and runs the specified file. Can include production and upstream/downstream flags",
 			options: [
