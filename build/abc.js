@@ -1,0 +1,1 @@
+var m={name:"abc",description:"",subcommands:[{name:"my_subcommand",description:"Example subcommand",subcommands:[{name:"my_nested_subcommand",description:"Nested subcommand, example usage: 'abc my_subcommand my_nested_subcommand'"}]}],options:[{name:["--help","-h"],description:"Show help for abc"}]},e=m;export{e as default};
