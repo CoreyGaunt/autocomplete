@@ -1,5 +1,5 @@
 var e = {
-  name: "tools",
+  name: "cliutils",
   description: "A toolkit for analytics engineers to manage their day-to-day tasks",
   subcommands: [
     {
